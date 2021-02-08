@@ -41,7 +41,7 @@ function ssrWin(){
         document.getElementById('man').innerHTML= ++score_man;
     }
     else if (thing==things[0]){
-        document.getElementById('cpu').innerHTML= score_cpu++;
+        document.getElementById('cpu').innerHTML= ++score_cpu;
     }
     else{
         draw++;
