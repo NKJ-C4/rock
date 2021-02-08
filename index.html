@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            ROCK PAPER SCISSOR
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style2.css">
+        <link rel="icon" href="rok.png" type="image/gif">
+    </head>
+    <script src="script.js"></script>
+    <body>
+        <audio autoplay loop id="playaudio" src="weeknd.mp3"></audio>
+        <button id="btn" onclick="document.getElementById('playaudio').muted=!document.getElementById('playaudio').muted"></button>
+        <font face="Arial"><center>
+        <div id="inst"><b><u>ROCK / PAPER / SCISSOR</u></b><br><i>You get 5 rounds to play in a single turn! BUST IT!</i>
+        <br><b>NOTE: DRAW SCORES AREN'T ADDED</b>
+        </div>    
+        <div id="play">
+            <div id="one"><div class="inp" id="rok" onclick="computerPlay(), rockWin(), game()">Rock</div></div>
+            <div id="two"><div class="inp" id="ppr" onclick="computerPlay(), pprWin(), game()">Paper</div></div>
+            <div id="three"><div class="inp" id="ssr" onclick="computerPlay(), ssrWin(), game()">Scissor</div></div>
+            <br><br><h1>COMPUTER CHOSE: <div id="res">...</div>
+            <div id="final">YOUR SCORE: <div id="man">0</div>
+            CPU SCORE: <div id="cpu">0</div>                   
+            </div>
+            </h1>
+        </div>
+        </center>
+        </font>
+    </body>
+</html>

@@ -1,0 +1,105 @@
+#inst{
+    font-size: 32px;
+    color: maroon;
+    width:1000px;
+    border-style: inset;
+    border-color: darkviolet;
+    border-width: 10px;
+    border-radius: 20px;
+}
+#play{
+    text-align: center;
+    margin-top: 50px;
+    border-style: dashed;
+    border-width: 15px;
+    width: 1500px;
+    height: 570px;
+    border-radius: 40px;
+    border-color: yellowgreen lemonchiffon;
+    animation: bd 5s infinite;
+}
+
+h1{
+    color: lightgreen;
+}
+
+.inp{
+    margin-top: 30px;
+    height: 200px;
+    width: 200px;
+    font-size:24px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 50%;
+    border-style: groove;
+    border-width: 20px;
+    margin-left: 20px;
+    text-indent: -9999px;
+    white-space: nowrap;
+}
+
+#btn{
+    border:10px;
+    height:80px;
+    width:80px;
+    background-color: lightcoral;
+    background-size: cover;
+    border-radius:50%;
+    margin-left:5px;
+    margin-top:5px;
+    background-image: url("mute.png");
+    overflow: hidden;
+    outline:none;
+  }
+
+#btn:hover{
+    background-color: silver;
+    cursor:pointer;
+}
+
+/*ANIMATION*/
+.inp:hover{
+    border-color:maroon;
+    background-color: yellowgreen;
+    transform:scale(1.25);
+    transition: 0.3s;
+}
+@keyframes bd{
+    0%{border-color: yellowgreen lemonchiffon;}
+    10%{border-color: green yellow;}
+    20%{border-color: black white;}
+    30%{border-color: tomato lightblue;}
+    40%{border-color: red blue;}
+    50%{border-color: green red;}
+    60%{border-color: brown darkviolet;}
+    70%{border-color: darkslategrey lightslategray;}
+    100%{border-color: lime violet;}
+}
+
+
+/*ELEMENTS or CHARACTERS*/
+#rok{
+    background-image: url("rok.png");
+    background-size: cover;
+    background-position-x: center;
+}
+
+#ssr{
+    background-image: url("scissor.png");
+    background-size: 150px 150px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-position-y: 20px;
+}
+
+#ppr{
+    background-image: url("paper.png");
+    background-size: cover;
+}
+
+#one, #two, #three, #res{
+    display:inline-flex;
+}
+
+
